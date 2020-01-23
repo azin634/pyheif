@@ -1,7 +1,7 @@
 # pyheif
 Python 3.6+ interface to [libheif](https://github.com/strukturag/libheif) library
 
-### Simple installation (requires libheif + libde265 + x265)
+### Simple installation (requires libheif + libde265 + libx265)
 ```pip install pyheif```
 
 ### Installing from source - MacOS
@@ -12,7 +12,7 @@ pip install git+https://github.com/david-poirier-csn/pyheif.git
 
 ### Installing from source - Linux
 ```
-yum|apt install libheif-dev libde264-dev x265-dev
+yum|apt install libheif-dev libde264-dev libx265-dev
 pip install git+https://github.com/david-poirier-csn/pyheif.git
 ```
 
